@@ -104,9 +104,6 @@
     <Content Include="js\jquery-2.2.3.js" />
     <Content Include="js\npm.js" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css.map" />
     <Content Include="css\bootstrap.css.map" />
@@ -125,6 +122,7 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="StudentFeedbackForm.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
