@@ -1,6 +1,12 @@
 ﻿body {
+    background-color:aquamarine
 }
 
 .answers label{
     font-weight: normal !important;
+}
+
+/*Not making panels lightblue*/
+panel{
+    background-color: lightblue
 }
