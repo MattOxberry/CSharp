@@ -18,8 +18,8 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="jumbotron page-header">
-                    <h1>Student Feedback Form</h1>
-                    <p>This is the Student Feedback Form. All of the answers your provide are completely anonymous.</p>
+                    <h2>Student Feedback Form</h2>
+                    <p><small>This is the Student Feedback Form. All of the answers your provide are completely anonymous.</small></p>
                 </div>
             </div>
         </div>
@@ -32,332 +32,314 @@
                     <div class="panel-body" style="background-color: beige">
                         <form role="form">
                             <div class="form-group">
-                                <label>First Name:</label>
-                                <input type="text" name="firstName" />
-                                <label>Last Name: <input type="text" class="form-control" id="lastName" /></label>
+                                <label class="form-inline">First Name: <input type="text" class="form-control" id="firstName" /></label>
+                                <label class="form-inline">Last Name: <input type="text" class="form-control" id="lastName" /></label>
                                 <br />
-                                <div style="text-align: center">
-                                    <label>Student ID: <input type="text" class="form-control" id="studentNum" /></label>
-                                </div>
+                                <label class="form-inline">Student ID: <input type="text" class="form-control" id="studentNum" /></label>
+                                <label>
+                                    Class:
+                                    <select>
+                                        <option>Select</option>
+                                        <option value="CIS 3342">CIS 3342</option>
+                                        <option value="CIS 3329">CIS 3329</option>
+                                        <option value="CIS 1001">CIS 1001</option>
+                                    </select>
+                                </label>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-md-offset-3">
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h4>Question 1: You were well preapared for class</h4>
-                    </div>
-                    <div class="panel-body">
-                        <form role="form" class="answers">
-                            <input type="radio" name="qa1" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa1" value="agree" />
-                            <label for="agree">Agree </label>
-                            <input type="radio" name="qa1" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa1" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa1" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa1" value="na" />
-                            <label for="na">N/A</label>
-                        </form>
-                    </div>
-                    <div class="panel-footer">
 
+            <div class="col-md-6 col-md-offset-3">
+                <div class="well-lg" style="background-color: rgb(211, 211, 211)">
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 1: You were well preapared for class.</h4>
+                        </div>
+                        <div class="panel-body">
+                            <center>
+                                <form role="form" class="answers">
+                                    <input type="radio" name="qa2" value="stronglyAgree" />
+                                    <label for="stronglyAgree">Strongly Agree</label>
+                                    <input type="radio" name="qa2" value="agree" />
+                                    <label for="agree">Agree</label>
+                                    <input type="radio" name="qa2" value="neutral" />
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" name="qa2" value="disagree" />
+                                    <label for="disagree">Disagree</label>
+                                    <input type="radio" name="qa2" value="strongDisagree" />
+                                    <label for="stronglyDisagree">Strongly Disagree</label>
+                                </form>
+                            </center>
+                        </div>
+                        <div class="panel-footer"></div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 2</h3>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 2: The professor came to class prepared.</h4>
+                        </div>
+                        <div class="panel-body">
+                            <center>
+                                <form role="form" class="answers">
+                                    <input type="radio" name="qa2" value="stronglyAgree" />
+                                    <label for="stronglyAgree">Strongly Agree</label>
+                                    <input type="radio" name="qa2" value="agree" />
+                                    <label for="agree">Agree</label>
+                                    <input type="radio" name="qa2" value="neutral" />
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" name="qa2" value="disagree" />
+                                    <label for="disagree">Disagree</label>
+                                    <input type="radio" name="qa2" value="strongDisagree" />
+                                    <label for="stronglyDisagree">Strongly Disagree</label>
+                                </form>
+                            </center>
+                        </div>
+                        <div class="panel-footer"></div>
                     </div>
-                    <div class="panel-body">
-                        <form role="form" class="answers">
-                            <input type="radio" name="qa2" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa2" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa2" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa2" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa2" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa2" value="na" />
-                            <label for="na">N/A</label>
-                        </form>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 3: The TA came to class prepared.</h4>
+                        </div>
+                        <div class="panel-body">
+                            <center>
+                                <div class="answers">
+                                    <input type="radio" name="qa3" value="stronglyAgree" />
+                                    <label for="stronglyAgree">Strongly Agree</label>
+                                    <input type="radio" name="qa3" value="agree" />
+                                    <label for="agree">Agree</label>
+                                    <input type="radio" name="qa3" value="neutral" />
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" name="qa3" value="disagree" />
+                                    <label for="disagree">Disagree</label>
+                                    <input type="radio" name="qa3" value="strongDisagree" />
+                                    <label for="stronglyDisagree">Strongly Disagree</label>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="panel-footer"></div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 3</h3>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 4: The labs had ready class</h4>
+                        </div>
+                        <div class="panel-body">
+                            <center>
+                                <div class="answers">
+                                    <input type="radio" name="qa4" value="stronglyAgree" />
+                                    <label for="stronglyAgree">Strongly Agree</label>
+                                    <input type="radio" name="qa4" value="agree" />
+                                    <label for="agree">Agree</label>
+                                    <input type="radio" name="qa4" value="neutral" />
+                                    <label for="neutral">Neutral</label>
+                                    <input type="radio" name="qa4" value="disagree" />
+                                    <label for="disagree">Disagree</label>
+                                    <input type="radio" name="qa4" value="strongDisagree" />
+                                    <label for="stronglyDisagree">Strongly Disagree</label>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="panel-footer"></div>
                     </div>
-                    <div class="panel panel-body">
-                        <label>The professor came prepared to class.</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa3" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa3" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa3" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa3" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa3" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa3" value="na" />
-                            <label for="na">N/A</label>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 5: Course was taught in a logical fashion.</h4>
+                        </div>
+                        <div class="panel panel-body">
+                            <div class="answers">
+                                <input type="radio" name="qa5" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa5" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa5" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa5" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa5" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 6: The textbook was helpful for the course.</h4>
+                        </div>
+                        <div class="panel panel-body">
+                            <div class="answers">
+                                <input type="radio" name="qa6" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa6" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa6" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa6" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa6" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h4>Question 7: The objective of the course was clearly outlined by the professor.</h4>
+                        </div>
+                        <div class="panel panel-body">
+                            <div class="answers">
+                                <input type="radio" name="qa7" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa7" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa7" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa7" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa7" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
+                        </div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h3>Question 8</h3>
+                        </div>
+                        <div class="panel panel-body">
+                            <label>This class was taught well</label>
+                            <br />
+                            <br />
+                            <div class="answers">
+                                <input type="radio" name="qa8" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa8" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa8" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa8" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa8" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 4</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa4" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa4" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa4" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa4" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa4" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa4" value="na" />
-                            <label for="na">N/A</label>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h3>Question 9</h3>
+                        </div>
+                        <div class="panel panel-body">
+                            <label>This class was taught well</label>
+                            <br />
+                            <br />
+                            <div class="answers">
+                                <input type="radio" name="qa9" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa9" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa9" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa9" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa9" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 5</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa5" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa5" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa5" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa5" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa5" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa5" value="na" />
-                            <label for="na">N/A</label>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h3>Question 10</h3>
+                        </div>
+                        <div class="panel panel-body">
+                            <label>This class was taught well</label>
+                            <br />
+                            <br />
+                            <div class="answers">
+                                <input type="radio" name="qa10" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa10" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa10" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa10" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa10" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 6</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa6" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa6" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa6" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa6" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa6" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa6" value="na" />
-                            <label for="na">N/A</label>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h3>Question 11</h3>
+                        </div>
+                        <div class="panel panel-body">
+                            <label>This class was taught well</label>
+                            <br />
+                            <br />
+                            <div class="answers">
+                                <input type="radio" name="qa11" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa11" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa11" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa11" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa11" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 7</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa7" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa7" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa7" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa7" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa7" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa7" value="na" />
-                            <label for="na">N/A</label>
+                    <br />
+                    <br />
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading">
+                            <h3>Question 12</h3>
+                        </div>
+                        <div class="panel panel-body">
+                            <label>This class was taught well</label>
+                            <br />
+                            <br />
+                            <div class="answers">
+                                <input type="radio" name="qa12" value="stronglyAgree" />
+                                <label for="stronglyAgree">Strongly Agree</label>
+                                <input type="radio" name="qa12" value="agree" />
+                                <label for="agree">Agree</label>
+                                <input type="radio" name="qa12" value="neutral" />
+                                <label for="neutral">Neutral</label>
+                                <input type="radio" name="qa12" value="disagree" />
+                                <label for="disagree">Disagree</label>
+                                <input type="radio" name="qa12" value="strongDisagree" />
+                                <label for="stronglyDisagree">Strongly Disagree</label>
+                            </div>
                         </div>
                     </div>
+                    <br />
+                    <br />
+                    <div class="text-center">
+                        <a class="btn btn-success" href="Answers.aspx"><span class="glyphicon glyphicon-alert"></span> Work?</a>
+                    </div>
+                    <br />
                 </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 8</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa8" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa8" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa8" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa8" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa8" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa8" value="na" />
-                            <label for="na">N/A</label>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 9</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa9" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa9" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa9" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa9" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa9" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa9" value="na" />
-                            <label for="na">N/A</label>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 10</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa10" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa10" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa10" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa10" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa10" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa10" value="na" />
-                            <label for="na">N/A</label>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 11</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa11" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa11" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa11" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa11" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa11" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa11" value="na" />
-                            <label for="na">N/A</label>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div class="panel panel-default">
-                    <div class="panel panel-heading">
-                        <h3>Question 12</h3>
-                    </div>
-                    <div class="panel panel-body">
-                        <label>This class was taught well</label>
-                        <br />
-                        <br />
-                        <div class="answers">
-                            <input type="radio" name="qa12" value="stronglyAgree" />
-                            <label for="stronglyAgree">Strongly Agree</label>
-                            <input type="radio" name="qa12" value="agree" />
-                            <label for="agree">Agree</label>
-                            <input type="radio" name="qa12" value="neutral" />
-                            <label for="neutral">Neutral</label>
-                            <input type="radio" name="qa12" value="disagree" />
-                            <label for="disagree">Disagree</label>
-                            <input type="radio" name="qa12" value="strongDisagree" />
-                            <label for="stronglyDisagree">Strongly Disagree</label>
-                            <input type="radio" name="qa12" value="na" />
-                            <label for="na">N/A</label>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div class="text-center">
-                    <a class="btn btn-success" href="Answers.aspx"><span class="glyphicon glyphicon-alert"></span> Work?</a>
-                </div>
-                <br />
             </div>
         </div>
     </div>
