@@ -14,6 +14,16 @@ namespace Project1
             lblFirstName.Text = Request["txtFirstName"];
             lblLastName.Text = Request["txtLastName"];
             lblCourse.Text = Request["ddCourse"];
+
+            Questions();
+        }
+
+        protected void Questions()
+        {
+            lblQ1.Text = "Question 1: You were well preapared for class.";
+            lblQ2.Text = "Question 2: The professor came to class prepared.";
+            lblQ3.Text = "Question 3: The TA came to class prepared.";
+            lblQ4.Text = "Question 4: The labs had all the equipment and materials rquired to do the lab.";
         }
     }
 }
