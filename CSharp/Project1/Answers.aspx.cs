@@ -11,7 +11,9 @@ namespace Project1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblFirstName.Text = Request["txtFirstName"];
+            lblLastName.Text = Request["txtLastName"];
+            lblCourse.Text = Request["ddCourse"];
         }
     }
 }
