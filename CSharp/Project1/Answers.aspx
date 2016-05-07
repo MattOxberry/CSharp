@@ -18,10 +18,14 @@
         <div class="container">
             <div class="row">
                 <div class="jumbotron">
-                    <h3>Here are the results of your survey!</h3>
+                    <h3>Thank you for taking the survey! </h3>
                     <asp:Label ID="lblFirstName" runat="server"></asp:Label>
                     <asp:Label ID="lblLastName" runat="server"></asp:Label>
+                    <asp:Label ID="lblStudentNum" runat="server"></asp:Label>
                     <asp:Label ID="lblCourse" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="lblanswer" runat="server"></asp:Label>
                 </div>
             </div>
             <div class="row">

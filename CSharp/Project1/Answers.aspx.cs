@@ -13,7 +13,19 @@ namespace Project1
         {
             lblFirstName.Text = Request["txtFirstName"];
             lblLastName.Text = Request["txtLastName"];
+            lblStudentNum.Text = Request["txtStudentNum"];
             lblCourse.Text = Request["ddCourse"];
+
+            string t = Request["qa1"];
+
+            if (t.Equals("5"))
+            {
+                lblanswer.Text = "Strongly Agree";
+            }
+            else
+            {
+                lblanswer.Text = "Something else";
+            }
 
             Questions();
         }
