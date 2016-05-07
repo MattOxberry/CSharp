@@ -76,6 +76,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ1;
         
         /// <summary>
+        /// lblA1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA1;
+        
+        /// <summary>
         /// lblQ2 control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ2;
+        
+        /// <summary>
+        /// lblA2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA2;
         
         /// <summary>
         /// lblQ3 control.
@@ -94,6 +112,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ3;
         
         /// <summary>
+        /// lblA3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA3;
+        
+        /// <summary>
         /// lblQ4 control.
         /// </summary>
         /// <remarks>
@@ -101,6 +128,15 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ4;
+        
+        /// <summary>
+        /// lblA4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA4;
         
         /// <summary>
         /// lblQ5 control.
@@ -112,6 +148,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ5;
         
         /// <summary>
+        /// lblA5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA5;
+        
+        /// <summary>
         /// lblQ6 control.
         /// </summary>
         /// <remarks>
@@ -119,6 +164,15 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ6;
+        
+        /// <summary>
+        /// lblA6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA6;
         
         /// <summary>
         /// lblQ7 control.
@@ -130,6 +184,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ7;
         
         /// <summary>
+        /// lblA7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA7;
+        
+        /// <summary>
         /// lblQ8 control.
         /// </summary>
         /// <remarks>
@@ -137,6 +200,15 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ8;
+        
+        /// <summary>
+        /// lblA8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA8;
         
         /// <summary>
         /// lblQ9 control.
@@ -148,6 +220,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ9;
         
         /// <summary>
+        /// lblA9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA9;
+        
+        /// <summary>
         /// lblQ10 control.
         /// </summary>
         /// <remarks>
@@ -155,6 +236,15 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ10;
+        
+        /// <summary>
+        /// lblA10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA10;
         
         /// <summary>
         /// lblQ11 control.
@@ -166,6 +256,15 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblQ11;
         
         /// <summary>
+        /// lblA11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA11;
+        
+        /// <summary>
         /// lblQ12 control.
         /// </summary>
         /// <remarks>
@@ -173,5 +272,14 @@ namespace Project1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblQ12;
+        
+        /// <summary>
+        /// lblA12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblA12;
     }
 }

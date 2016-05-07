@@ -20,11 +20,11 @@ namespace Project1
 
             if (t.Equals("5"))
             {
-                lblanswer.Text = "Strongly Agree";
+                lblA1.Text = "Strongly Agree";
             }
             else
             {
-                lblanswer.Text = "Something else";
+                lblA1.Text = "Something else";
             }
 
             Questions();

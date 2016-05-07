@@ -32,30 +32,115 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="well-lg" style="background-color: rgb(220,220,220)">
                         <div class="panel">
-                            <asp:Label ID="lblQ1" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ2" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ3" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ4" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ5" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ6" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ7" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ8" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ9" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ10" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ11" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblQ12" runat="server"></asp:Label>
-                            <br />
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ1" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA1" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ2" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA2" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ3" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA3" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ4" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA4" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ5" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA5" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ6" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA6" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ7" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA7" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ8" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA8" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ9" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA9" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ10" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA10" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ11" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA11" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblQ12" runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <asp:Label ID="lblA12" runat="server" Font-Bold="true"></asp:Label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
