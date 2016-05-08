@@ -7,6 +7,8 @@ namespace Project1
 {
     public class Results
     {
-
+        int total { get; set; }
+        
+            
     }
 }

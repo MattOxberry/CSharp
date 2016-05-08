@@ -33,7 +33,7 @@
                     <div class="well-lg" style="background-color: rgb(220,220,220)">
                         <div class="panel">
                             <div class="panel-body">
-                                <div class="row">
+                                <div class="row" style="background-color: khaki">
                                     <div class="col-md-6">
                                         <asp:Label ID="lblQ1" runat="server"></asp:Label>
                                     </div>
@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
+                                <div class="row" style="background-color: peachpuff">
                                     <div class="col-md-6">
                                         <asp:Label ID="lblQ2" runat="server"></asp:Label>
                                     </div>
