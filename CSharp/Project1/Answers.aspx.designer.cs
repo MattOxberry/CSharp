@@ -58,15 +58,6 @@ namespace Project1 {
         protected global::System.Web.UI.WebControls.Label lblCourse;
         
         /// <summary>
-        /// lblanswer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblanswer;
-        
-        /// <summary>
         /// lblQ1 control.
         /// </summary>
         /// <remarks>

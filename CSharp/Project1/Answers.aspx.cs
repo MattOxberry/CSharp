@@ -16,17 +16,6 @@ namespace Project1
             lblStudentNum.Text = Request["txtStudentNum"];
             lblCourse.Text = Request["ddCourse"];
 
-            string t = Request["qa1"];
-
-            //if (t.Equals("5"))
-            //{
-            //    lblA1.Text = "Strongly Agree";
-            //}
-            //else
-            //{
-            //    lblA1.Text = "Something else";
-            //}
-
             Questions();
             Choices();
         }

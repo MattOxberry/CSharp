@@ -17,24 +17,25 @@
     <form id="frmAnswers" runat="server">
         <div class="container">
             <div class="row">
-                <div class="jumbotron">
-                    <h3>Thank you for taking the survey! </h3>
-                    <asp:Label ID="lblFirstName" runat="server"></asp:Label>
-                    <asp:Label ID="lblLastName" runat="server"></asp:Label>
-                    <asp:Label ID="lblStudentNum" runat="server"></asp:Label>
-                    <asp:Label ID="lblCourse" runat="server"></asp:Label>
-                    <br />
-                    <br />
-                    <asp:Label ID="lblanswer" runat="server"></asp:Label>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="jumbotron">
+                        <center>
+                            <h3>Thank you for taking the survey! </h3>
+                            <asp:Label ID="lblFirstName" runat="server"></asp:Label>
+                            <asp:Label ID="lblLastName" runat="server"></asp:Label>
+                            <asp:Label ID="lblStudentNum" runat="server"></asp:Label>
+                            <asp:Label ID="lblCourse" runat="server"></asp:Label>
+                        </center>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-8 col-md-offset-2">
                     <div class="well-lg" style="background-color: rgb(220,220,220)">
                         <div class="panel">
                             <div class="panel-body">
                                 <div class="row" style="background-color: khaki">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ1" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -42,8 +43,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row" style="background-color: peachpuff">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ2" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -51,8 +52,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ3" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -60,8 +61,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ4" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -69,8 +70,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ5" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -78,8 +79,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ6" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -87,8 +88,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ7" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -96,8 +97,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ8" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -105,8 +106,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ9" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -114,8 +115,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ10" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -123,8 +124,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ11" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">
@@ -132,8 +133,8 @@
                                     </div>
                                 </div>
                                 <br />
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row" style="background-color: khaki">
+                                    <div class="col-md-6" style="text-align: right">
                                         <asp:Label ID="lblQ12" runat="server"></asp:Label>
                                     </div>
                                     <div class="col-md-6">

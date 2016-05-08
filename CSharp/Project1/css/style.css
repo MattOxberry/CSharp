@@ -6,6 +6,10 @@
     font-weight: normal !important;
 }
 
+col-md-9 {
+    text-align: right;
+}
+
 /*Not making panels lightblue*/
 panel{
     background-color: lightblue
