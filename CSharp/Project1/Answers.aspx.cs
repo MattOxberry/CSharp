@@ -53,6 +53,14 @@ namespace Project1
             lblA2.Text = Request["qa2"];
             lblA3.Text = Request["qa3"];
             lblA4.Text = Request["qa4"];
+            lblA5.Text = Request["qa5"];
+            lblA6.Text = Request["qa6"];
+            lblA7.Text = Request["qa7"];
+            lblA8.Text = Request["qa8"];
+            lblA9.Text = Request["qa9"];
+            lblA10.Text = Request["qa10"];
+            lblA11.Text = Request["qa11"];
+            lblA12.Text = Request["qa12"];
         }
     }
 }
