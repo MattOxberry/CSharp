@@ -34,10 +34,10 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel panel-heading">
-                            <h2 <strong>Project 1</strong></h2>
+                            <h2><strong>Project 1</strong></h2>
                         </div>
                         <div class="panel panel-body">
-                             <p>This was a simple project done all in HTML.</p>
+                             <p>Create a survey with an HTML page. Once submitted the results of the survey will be displayed on an ASPX page. Both pages were implemented with Bootstrap.</p>
                         </div>
                     </div>
                 </div>
