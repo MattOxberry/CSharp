@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace NaanBook
+namespace //Your namespace
 {
     public class DBConnect
     {
@@ -118,6 +118,25 @@ namespace NaanBook
                 return -1;
             }
         }
+
+        public void DoUpdateWithDSCmdObj(DataSet passed, string dbTableDestination)
+        {
+            // Parameters in are the dataset passed and the table you are inserting to
+            // The dataset MUST have the SAME COLUMN NAMES as the table in the SQL database
+
+            try
+            {
+                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(myConnectionSql))
+                {
+                    bulkCopy.DestinationTableName = dbTableDestination;
+
+                    bulkCopy.WriteToServer(passed.Tables[0]);
+                }
+            }
+            catch (Exception ex)
+            {
+                myConnectionSql.Close();
+            }
 
         public DataSet GetDataSetUsingCmdObj(SqlCommand theCommand)
         {
