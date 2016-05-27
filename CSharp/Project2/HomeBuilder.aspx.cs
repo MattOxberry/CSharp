@@ -25,8 +25,22 @@ namespace Project2
             dt.Rows.Add(dr);
             ds.Tables.Add(dt);
 
-            gvhouserooms.DataSource = ds.Tables[0];
-            gvhouserooms.DataBind();
+            //DBConnect test = new DBConnect();
+            //DataSet dataTest = test.GetDataSet("select * from homerooms");
+
+            DataSet dst = HomebuilderDB.GetAllRoomTypes();
+
+            gvHouseRooms.DataSource = dst.Tables[0];
+            gvHouseRooms.DataBind();
+
+            gvMasterBed.DataSource = ds.Tables[0];
+            gvMasterBed.DataBind();
+        }
+
+        public void GridviewLoad()
+        {
+            gvHouseRooms.DataSource = HomebuilderDB.GetAllRoomTypes();
+            //gvHouseRooms.
         }
     }
 }

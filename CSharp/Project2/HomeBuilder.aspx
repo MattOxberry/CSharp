@@ -34,9 +34,35 @@
                             </div>
                             <div class="panel-body">
                                 <div class="col-md-6 col-md-offset-3" style="align-content:center">
-                                    <asp:GridView ID="gvhouserooms" runat="server">
+                                    <asp:GridView ID="gvHouseRooms" runat="server">
                                         <Columns>
                                         </Columns>
+                                    </asp:GridView>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="text-align: center">
+                                <h1>Master Bedroom</h1>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-6 col-md-offset-3" style="align-content:center">
+                                    <asp:GridView ID="gvMasterBed" runat="server">
+                                    </asp:GridView>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="text-align: center">
+                                <h1>Bedroom #1</h1>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-6 col-md-offset-3" style="align-content: center">
+                                    <asp:GridView ID="gvBedroom1" runat="server">
                                     </asp:GridView>
                                 </div>
                             </div>
