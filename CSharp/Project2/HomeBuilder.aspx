@@ -15,16 +15,19 @@
 
     <title>Home Builder</title>
 </head>
-<nav>
-    <div class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <%--something here%--%>
-            </div>
-        </div>
-    </div>
-</nav>
 <body>
+<%------------------------------------------- Navbar -----------------------------------%>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Admin <span class="glyphicon glyphicon-cog"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+<%--------------------------------------------------------------------------------------%>
+
     <form id="form1" runat="server">
         <br />
         <br />
