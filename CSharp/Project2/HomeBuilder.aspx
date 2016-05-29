@@ -15,6 +15,15 @@
 
     <title>Home Builder</title>
 </head>
+<nav>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <%--something here%--%>
+            </div>
+        </div>
+    </div>
+</nav>
 <body>
     <form id="form1" runat="server">
         <br />
@@ -33,9 +42,16 @@
                                 <h1>Home builder</h1>
                             </div>
                             <div class="panel-body">
-                                <div class="col-md-6 col-md-offset-3" style="align-content:center">
-                                    <asp:GridView ID="gvHouseRooms" runat="server">
+                                <div class="col-md-8 col-md-offset-2" style="align-content: center">
+                                    <asp:GridView ID="gvHouseRooms" runat="server" AutoGenerateColumns="false">
                                         <Columns>
+                                            <asp:BoundField DataField="name" HeaderText="Room Name" />
+                                            <asp:BoundField DataField="description_of_room" HeaderText="Description of room" />
+                                            <asp:TemplateField HeaderText="Select" ItemStyle-HorizontalAlign="Center">
+                                                <ItemTemplate>
+                                                    <asp:CheckBox ID="chbRooms" runat="server" />
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
                                         </Columns>
                                     </asp:GridView>
                                 </div>
@@ -48,7 +64,7 @@
                                 <h1>Master Bedroom</h1>
                             </div>
                             <div class="panel-body">
-                                <div class="col-md-6 col-md-offset-3" style="align-content:center">
+                                <div class="col-md-6 col-md-offset-3" style="align-content: center">
                                     <asp:GridView ID="gvMasterBed" runat="server">
                                     </asp:GridView>
                                 </div>

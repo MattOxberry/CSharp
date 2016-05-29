@@ -30,17 +30,21 @@ namespace Project2
 
             DataSet dst = HomebuilderDB.GetAllRoomTypes();
 
-            gvHouseRooms.DataSource = dst.Tables[0];
-            gvHouseRooms.DataBind();
+            //gvHouseRooms.DataSource = dst.Tables[0];
+            //gvHouseRooms.DataBind();
+
+            GridviewLoad();
 
             gvMasterBed.DataSource = ds.Tables[0];
             gvMasterBed.DataBind();
         }
 
-        public void GridviewLoad()
+        protected void GridviewLoad()
         {
+            //DataSet ds = HomebuilderDB.GetAllRoomTypes();
+            //gvHouseRooms.DataSource = ds.Tables[0];
             gvHouseRooms.DataSource = HomebuilderDB.GetAllRoomTypes();
-            //gvHouseRooms.
+            gvHouseRooms.DataBind();
         }
     }
 }
