@@ -11,7 +11,8 @@ namespace Project2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            gvAdminRooms.DataSource = HomebuilderDB.GetAllRoomTypes();
+            gvAdminRooms.DataBind();
         }
     }
 }

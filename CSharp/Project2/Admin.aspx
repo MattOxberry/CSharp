@@ -17,8 +17,21 @@
 </head>
 <body>
     <form id="frmAdmin" runat="server">
-    <div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="well">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1>Admin Page</h1>
+                        </div>
+                        <div class="panel-body">
+                            <asp:GridView ID="gvAdminRooms" runat="server" AutoGenerateColumns="true"></asp:GridView>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </form>
 </body>
