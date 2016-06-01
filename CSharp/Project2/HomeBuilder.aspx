@@ -22,7 +22,7 @@
             <div class="navbar-header">
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Admin <span class="glyphicon glyphicon-cog"></span></a></li>
+                <li><a href="Admin.aspx">Admin <span class="glyphicon glyphicon-cog"></span></a></li>
             </ul>
         </div>
     </nav>
