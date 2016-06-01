@@ -75,8 +75,18 @@
                                 <h1>Master Bedroom</h1>
                             </div>
                             <div class="panel-body">
-                                <div class="col-md-6 col-md-offset-3" style="align-content: center">
-                                    <asp:GridView ID="gvMasterBed" runat="server">
+                                <div class="col-md-10 col-md-offset-1" style="align-content: center">
+                                    <asp:GridView ID="gvMasterBed" runat="server" AutoGenerateColumns="false">
+                                        <Columns>
+                                            <asp:BoundField DataField="name" HeaderText="Upgrade" />
+                                            <asp:BoundField DataField="description_of_upgrade" HeaderText="Descirption" />
+                                            <asp:BoundField DataField="cost" HeaderText="Cost" DataFormatString="{0:C2}"/>
+                                            <asp:TemplateField HeaderText="Select">
+                                                <ItemTemplate>
+                                                    <asp:CheckBox ID="chbMasterBR" runat="server" />
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                        </Columns>
                                     </asp:GridView>
                                 </div>
                             </div>
@@ -88,8 +98,21 @@
                                 <h1>Bedroom #1</h1>
                             </div>
                             <div class="panel-body">
-                                <div class="col-md-6 col-md-offset-3" style="align-content: center">
+                                <div class="col-md-10 col-md-offset-1" style="align-content: center">
                                     <asp:GridView ID="gvBedroom1" runat="server">
+                                    </asp:GridView>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="text-align: center">
+                                <h1>Bedroom #2</h1>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-10 col-md-offset-1" style="align-content: center">
+                                    <asp:GridView ID="gvBedroom2" runat="server">
                                     </asp:GridView>
                                 </div>
                             </div>

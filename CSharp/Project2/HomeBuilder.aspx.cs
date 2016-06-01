@@ -35,8 +35,8 @@ namespace Project2
 
             GridviewLoad();
 
-            gvMasterBed.DataSource = ds.Tables[0];
-            gvMasterBed.DataBind();
+            //gvMasterBed.DataSource = ds.Tables[0];
+            //gvMasterBed.DataBind();
         }
 
         protected void GridviewLoad()
@@ -45,6 +45,12 @@ namespace Project2
             //gvHouseRooms.DataSource = ds.Tables[0];
             gvHouseRooms.DataSource = HomebuilderDB.GetAllRoomTypes();
             gvHouseRooms.DataBind();
+
+            DataSet dsmaster = HomebuilderDB.GetAllMasterBRUpgrades();
+            gvMasterBed.DataSource = dsmaster;
+            //------------------------MIGHT BE A WAY TO DATABOUND IN CODEBEHIND INSTEAD OF UP FRONT------
+            //gvMasterBed.DataBound = dsmaster.Tables[0]['name'];
+            gvMasterBed.DataBind();
         }
     }
 }
