@@ -16,17 +16,17 @@
     <title>Home Builder</title>
 </head>
 <body>
-<%------------------------------------------- Navbar -----------------------------------%>
+    <%------------------------------------------- Navbar -----------------------------------%>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Admin <span class="glyphicon glyphicon-cog"></span></a></li>
+                <li><a href="Admin.aspx">Admin <span class="glyphicon glyphicon-cog"></span></a></li>
             </ul>
         </div>
     </nav>
-<%--------------------------------------------------------------------------------------%>
+    <%--------------------------------------------------------------------------------------%>
 
     <form id="form1" runat="server">
         <br />

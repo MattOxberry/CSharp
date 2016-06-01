@@ -130,6 +130,10 @@
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+<<<<<<< HEAD
+=======
+      <SubType>ASPXCodeBehind</SubType>
+>>>>>>> adminpage
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
