@@ -55,6 +55,7 @@
                                                     <asp:CheckBox ID="chbRooms" runat="server" />
                                                 </ItemTemplate>
                                             </asp:TemplateField>
+<<<<<<< HEAD
                                             <asp:TemplateField HeaderText ="Dementions" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
                                                     <asp:TextBox ID="txtWidth" runat="server"></asp:TextBox>
@@ -62,6 +63,8 @@
                                                     <asp:TextBox ID="txtLenght" runat="server"></asp:TextBox>
                                                 </ItemTemplate>
                                             </asp:TemplateField>
+=======
+>>>>>>> adminpage
                                         </Columns>
                                     </asp:GridView>
                                 </div>
