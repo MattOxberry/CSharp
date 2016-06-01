@@ -8,6 +8,7 @@
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <%--<link href="css/style.css" rel="stylesheet" />--%>
+    <link href="css/project2Style.css" rel="stylesheet" />
 
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-2.2.3.js"></script>
@@ -45,7 +46,7 @@
                                 <h1>Home builder</h1>
                             </div>
                             <div class="panel-body">
-                                <div class="col-md-8 col-md-offset-2" style="align-content: center">
+                                <div class="col-md-10 col-md-offset-1" style="align-content: center">
                                     <asp:GridView ID="gvHouseRooms" runat="server" AutoGenerateColumns="false">
                                         <Columns>
                                             <asp:BoundField DataField="name" HeaderText="Room Name" />
@@ -57,9 +58,9 @@
                                             </asp:TemplateField>
                                             <asp:TemplateField HeaderText ="Dementions" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
-                                                    <asp:TextBox ID="txtWidth" runat="server"></asp:TextBox>
+                                                    <asp:TextBox ID="txtWidth" runat="server" style="width: 30px" ></asp:TextBox>
                                                     <asp:Label ID="lblX" runat="server"> X </asp:Label>
-                                                    <asp:TextBox ID="txtLenght" runat="server"></asp:TextBox>
+                                                    <asp:TextBox ID="txtLength" runat="server" style="width: 30px"></asp:TextBox>
                                                 </ItemTemplate>
                                             </asp:TemplateField>
                                         </Columns>
