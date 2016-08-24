@@ -11,7 +11,7 @@ namespace Utilities
 {
     public class DBConnect
     {
-        string SqlConnectString = "server=MATTOXBERRYF7F7\\WORKINGDB;Database=Project2;User id=devuser;Password=testing123";
+        
         SqlConnection myConnectionSql;
         SqlCommand objCmd;
         SqlDataReader objDataReader;
