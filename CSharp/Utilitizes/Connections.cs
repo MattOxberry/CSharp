@@ -11,9 +11,7 @@ namespace Utilitizes
 {
     public class DBConnect
     {
-        //server=cis-mssql1.temple.edu;Database=sp16_3342_tuc19266;User id=tuc19266;Password=Quahh2ae
-        String SqlConnectString = "server=MATTOXBERRYF7F7\WORKINGDB;Initial Catalog=Project2;Integrated Security=False;User ID=devuser;Password=Quahh2ae;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-        SqlConnection myConnectionSql;
+       SqlConnection myConnectionSql;
         SqlCommand objCmd;
         SqlDataReader objDataReader;
         DataSet ds;
